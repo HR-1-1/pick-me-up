@@ -12,7 +12,7 @@ The given dataset had a disproportionate split between the classes which could a
 ## Pre-Processing
 Libraries like spacy, gensim, nlkt were used to for preprocessing the data. Firstly Punctuations, Digits, single/bi charecter words were removed. Then stopwords were removed. Finally the sentences were tokenized and lemmatized to minimize the vocabulary and improve the speed.
 ## Training and Evaluation
-The following hyperparameters were finalized after thorough  experimentation. The final train time took about 1 minute.\
+The following hyperparameters were finalized after thorough  experimentation. The final train time took about 1 minute.
 
 Epochs : 9\
 Learning Rate : 1.5\
